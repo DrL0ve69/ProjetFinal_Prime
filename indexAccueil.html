@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Page d'accueil entreprise</title>
+	
+</head>
+
+<body>
+
+<!--  DÉBUT NAV  -->
+
+	<header>
+		<nav>
+		
+		</nav>
+	</header>
+
+
+<!--  DÉBUT MAIN  -->
+	
+	<main>
+		
+		<div class="container">
+			
+			<section id="sectionNosMembres">
+				
+				<h2 class="h2">Nos membres inscrits</h2>
+				
+			</section>
+			
+			<section id="sectionFormulaireInscription">
+				
+				<form id="formulaireInscription" name="formulaireInscription"
+				      action="indexProfilPerso.html"
+				      method="post"
+				      enctype="multipart/form-data">
+					<fieldset>
+						
+						<h2 class="h2">Inscrivez-vous ci-dessous!</h2>
+						
+						<!--  Début des inputs du formulaire  -->
+						<label for="nomFormulaireAccueil">
+							Votre nom :
+							<input id="nomFormulaireAccueil" type="text" name="nomFormulaireAccueil" maxlength="40" required>
+						</label>
+						<label for="prenomFormulaireAccueil">
+							Votre prénom :
+							<input id="prenomFormulaireAccueil" type="text" name="prenomFormulaireAccueil" maxlength="40" required>
+						</label>
+						
+						<!-- Choix avatar ou fichier photo à AJOUTER  -->
+						<!--  NomUtilisateur et Password *** on peut ajouter email et autre type que string ***  -->
+						
+						<label for="nouveauNomUtilisateurFormulaireAccueil">
+							Votre nomUtilisateur :
+							<input id="nouveauNomUtilisateurFormulaireAccueil" type="text" name="nomUtilisateurFormulaireAccueil" maxlength="25" required>
+						</label>
+						<label for="passwordFormulaireAccueil">
+							Nouveau mot de passe :
+							<input id="passwordFormulaireAccueil" type="password" name="passwordFormulaireAccueil" maxlength="40" required>
+						</label>
+						<label for="passwordVerificationFormulaireAccueil">
+							Vérification mot de passse :
+							<input id="passwordVerificationFormulaireAccueil" type="password" name="passwordFormulaireAccueil" maxlength="40" required>
+						</label>
+						
+					</fieldset>
+					
+					
+				
+				</form>
+			</section>
+			
+		</div>
+
+	</main>
+
+
+<!--  DÉBUT FOOTER -->
+
+	<footer>
+	
+	</footer>
+
+</body>
+</html>
